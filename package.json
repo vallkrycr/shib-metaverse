@@ -9,7 +9,6 @@
   "author": "vallkrycr",
   "license": "MIT",
   "homepage": "./",
-  "private": true,
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [
       "eslint --cache --fix",
@@ -167,7 +166,6 @@
     "eject": "react-app-rewired eject",
     "test": "react-app-rewired test --env=jsdom",
     "integration-test": "start-server-and-test 'serve build -l 3000' http://localhost:3000 'cypress run'",
-    "prepare": "husky install",
     "postinstall": "npm rebuild node-sass"
   },
   "browserslist": {
