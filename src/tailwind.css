@@ -1,0 +1,117 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+* {
+  font-family: 'Poppins';
+}
+
+button:focus {
+  outline: none !important;
+}
+
+input:focus {
+  box-shadow: none !important;
+}
+.h-3 {
+  height: 3rem !important;
+}
+.m-l-1 {
+  margin-left: 1.5rem;
+}
+.mr-4 {
+  margin-right: 0.8rem;
+}
+.p-1{
+  margin: -8px 0px -2px !important;
+}
+.p-3 {
+  padding: 0.75rem !important;
+}
+.modal_content p{
+  line-height: 25px;
+}
+.back_button{
+  left: -64px;
+  position: absolute;
+  top: 10px;
+  box-shadow: 0 0 9px 4px rgb(0 0 0 / 43%);
+  border-radius: 10px !important;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.25) 0%, rgba(17, 20, 27, 0.33) 31%, rgba(17, 20, 27, 0.5) 100%);
+  border: 1px solid transparent;
+}
+div[data-reach-dialog-overlay] div[data-reach-dialog-content]{
+  margin: 0px !important;
+  border: 1px solid #B96A05;
+}
+.font-passion-one {
+  font-family: 'Passion One' !important;
+}
+
+.header-wrapper {
+  position: fixed;
+  top: -63px;
+
+  background: #201f317a;
+  backdrop-filter: blur(10px);
+
+  transition: all .5s;
+}
+
+.header-wrapper.active {
+  top: 0;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+::-webkit-scrollbar-thumb {
+  background-color: #B96A05;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #F8A93E;
+}
+
+.borderNone {
+  border: none !important;
+}
+
+.tableHeaderCell {
+  
+}
+
+.tableHeaderCell svg {
+  color: #FFD59D !important;
+}
+
+.tableRowCell {
+
+}
+
+.tablePagination {
+  color: white !important;
+  font-family: 'Poppins' !important;
+}
+
+.tablePagination svg {
+  color: white !important;
+}
+
+.tablePagination button:disabled svg {
+  color: rgba(255, 255, 255, 0.363) !important;
+}
+
+.tablePagination svg:hover {
+  color: #FFD59D !important;
+}
+
+.color-primary {
+  color: #FFD59D !important;
+}

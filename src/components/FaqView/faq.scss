@@ -1,0 +1,84 @@
+.faq-row-wrapper {
+    .faq-body {
+        .faq-row {
+            border: none;
+
+            .row-title {
+                background: #201f3180;
+                border: 1px solid #B96A05;
+                box-sizing: border-box;
+                border-radius: 24px;
+
+                padding: 1.5rem 2rem !important;
+
+                .row-title-text {
+                    padding-right: 0;
+                }
+            }
+
+            .row-content {
+                background: linear-gradient(270deg, rgba(31, 31, 50, 0.4) 0%, rgba(31, 32, 49, 0.4) 40.1%, rgba(120, 88, 56, 0.4) 100%);
+
+                border: 1px solid #B96A05;
+                box-sizing: border-box;
+                border-radius: 24px;
+
+                height: unset;
+                
+                margin-top: 10px;
+
+                .row-content-text {
+                    padding: 1.5rem 2rem !important;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .faq-row-wrapper {
+        .faq-body {
+            .faq-row {
+                .row-title {
+                    border-radius: 18px;
+                    padding: 1rem 1.5rem !important;
+
+                    .row-title-text {
+                        font-size: 17px;
+                    }
+                }
+    
+                .row-content {
+                    margin-top: 8px;
+                    border-radius: 18px;
+    
+                    .row-content-text {
+                        padding: 1rem 1.5rem !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .faq-row-wrapper {
+        .faq-body {
+            .faq-row {
+                .row-title {
+                    border-radius: 12px;
+                    padding: .5rem 1rem !important;
+                }
+    
+                .row-content {
+                    margin-top: 5px;
+                    border-radius: 12px;
+    
+                    .row-content-text {
+                        padding: .5rem 1rem !important;
+                    }
+                }
+            }
+        }
+    }
+}
